@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicHub</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My MusicHUB</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/home.html">Home</a></li>
+                <li>
+                    <a href="http://127.0.0.1:5500/about.html">About</a>
+                    <ul class="dropdown">
+                        <li><a href="#bio">Biography</a></li>
+                        <li><a href="#discography">Discography</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="featured">
+        <h2>Featured Songs</h2>
+        <div class="song">
+            <h3>Death Bed</h3>
+            <p>Artist: Powfu</p>
+            <audio controls>
+                <source src="mv.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+        <div class="song">
+            <h3>Wano Kunai</h3>
+            <p>Artist: Styzmask</p>
+            <audio controls>
+                <source src="mv.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+           
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MusicHUB</p>
+    </footer>
+</body>
+</html>
