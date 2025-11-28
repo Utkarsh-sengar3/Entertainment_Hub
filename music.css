@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-color: rgba(53, 66, 74, 0.8);
+}
+
+header {
+    background: #1DB954; /* Semi-transparent background */
+    padding: 20px 0;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    position: relative; /* Position relative for dropdown */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1DB954 /* Change color on hover */
+}
+
+.dropdown {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position it absolutely */
+    background: rgba(53, 66, 74, 0.8); /* Semi-transparent background */
+    padding: 10px 0;
+    border-radius: 5px;
+    z-index: 1; /* Ensure it appears above other elements */
+}
+
+nav ul li:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown li {
+    display: block; /* Stack dropdown items */
+    margin: 0; /* Remove margin */
+}
+
+.dropdown li a {
+    padding: 10px 20px; /* Add padding for dropdown items */
+    display: block; /* Make the entire area clickable */
+}
+
+section {
+    padding: 20px;
+    animation: slideIn 1s ease-in;
+}
+
+.song {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+    background-image: url('bkg.avif');
+}
+
+.song:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #1DB954;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity:1}}
