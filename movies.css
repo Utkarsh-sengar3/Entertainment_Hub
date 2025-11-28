@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141414; /* Dark background for the body */
+    color: #ffffff; /* White text color */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e50914; /* Netflix red */
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #b3b3b3; /* Light gray on hover */
+}
+
+.hero {
+    height: 70vh; /* Hero section height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    text-align: center; /* Center text */
+    padding: 0 20px; /* Padding for the hero section */
+}
+
+.hero h1 {
+    font-size: 48px; /* Large font size for the main heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.hero p {
+    font-size: 20px; /* Font size for the subheading */
+    margin-bottom: 20px; /* Space below the subheading */
+}
+
+.hero input {
+    padding: 10px; /* Padding for the input field */
+    width: 300px; /* Width of the input field */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+}
+
+.hero button {
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #e50914; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* White text color */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.hero button:hover {
+    background-color: #f40612; /* Darker red on hover */
+}
+
+.popular {
+    padding: 20px; /* Padding for the popular section */
+}
+
+.popular h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+}
+
+.cards {
+    display: grid; /* Use grid layout for cards */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background-color: #333; /* Dark background for cards */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    text-align: center; /* Center text */
+    transition: transform 0.3s; /* Smooth transform transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.card img {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card h3 {
+    padding: 10px; /* Padding for movie title */
+    font-size: 16px; /* Font size for movie title */
+}
+
+footer {
+    background-color: #222; /* Dark footer background */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding for footer */
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+
+footer p {
+    color: #b3b3b3; /* Light gray text color */
+}
