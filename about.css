@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.admin-info {
+    margin: 20px 0;
+}
+
+.admin-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.admin-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.admin-details {
+    flex: 1;
+}
+
+.platforms {
+    margin: 20px 0;
+}
+
+.platform-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.platform-card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+}
+
+.platform-card h3 {
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
