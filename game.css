@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background for a gaming feel */
+    color: #e0e0e0; /* Light text color for contrast */
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Add a background image */
+    background-size: cover; /* Cover the entire background */
+    background-attachment: fixed; /* Fixed background for a parallax effect */
+}
+
+header {
+    background: rgba(0, 123, 255, 0.8); /* Semi-transparent blue for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #007bff; /* Bottom border for emphasis */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #00ffcc; /* Neon color for headings */
+}
+
+.game-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.game {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white for game cards */
+    border: 1px solid #444; /* Dark border for game cards */
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+}
+#k{
+    height: 600px;
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.play-now {
+    background: #00ffcc; /* Neon button color */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.play-now:hover {
+    background: #00cc99; /* Darker neon on hover */
+}
+
+.community {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 5px;
+}
+
+.join-community {
+    background: #ff4081; /* Bright pink for community button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.join-community:hover {
+    background: #e91e63; /* Darker pink on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8); /* Dark footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links i {
+    font-size: 24px;
+}
